@@ -8,7 +8,7 @@ endif
 let g:colors_name = "newsprint"
 
 " Console Colors
-highlight Comment	ctermfg=grey
+highlight Comment	ctermfg=grey            cterm=italic
 highlight Constant 	ctermfg=grey			cterm=bold
 highlight Error		ctermfg=grey	ctermbg=black	cterm=bold
 highlight Identifier 	ctermfg=black			cterm=bold
@@ -20,7 +20,7 @@ highlight Type 		ctermfg=black			cterm=bold
 highlight Visual	ctermfg=black	ctermbg=grey
 
 " GUI Colors
-highlight Comment	guifg=#444444
+highlight Comment	guifg=#444444           gui=italic
 highlight Constant 	guifg=black
 highlight Cursor			guibg=black
 highlight CursorLine 	guibg=grey
