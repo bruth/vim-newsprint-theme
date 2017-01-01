@@ -19,7 +19,7 @@ hi Function     guifg=#111111          guibg=NONE      gui=bold
 hi String       guifg=#7C7C7C          guibg=NONE      gui=NONE
 hi Type         guifg=#111111          guibg=NONE      gui=bold
 hi Conditional  guifg=#878787          guibg=NONE      gui=bold
-hi Todo         guifg=#00FFFF          guibg=#DDFFFF   gui=underline
+hi Todo         guifg=#A42E2E          guibg=#FFDDDD   gui=underline
 hi Comment      guifg=#888888          guibg=NONE      gui=NONE
 hi PmenuSel     guifg=#FFFFFF          guibg=#565655   gui=bold
 hi Special      guifg=#797A7A          guibg=NONE      gui=NONE
@@ -38,9 +38,9 @@ hi lCursor      guifg=bg               guibg=fg        gui=NONE
 hi iCursor			                   guibg=fg
 
 hi DiffAdd      guifg=#FF33FF          guibg=#FFDDFF   gui=NONE
-hi DiffChange   guifg=#0066AA          guibg=#DDFFFF   gui=NONE
-hi DiffDelete   guifg=#00FFFF          guibg=#DDFFFF   gui=NONE
-hi DiffText     guifg=#00FFFF          guibg=#DDFFFF   gui=NONE
+hi DiffChange   guifg=#0066AA          guibg=#FFDDDD   gui=NONE
+hi DiffDelete   guifg=#A42E2E          guibg=#FFDDDD   gui=NONE
+hi DiffText     guifg=#A42E2E          guibg=#FFDDDD   gui=NONE
 
 hi Directory    guifg=#6D6D6D          guibg=bg        gui=NONE
 hi ErrorMsg     guifg=#909090          guibg=NONE      gui=NONE
@@ -78,7 +78,7 @@ hi WarningMsg   guifg=#303030          guibg=#A4A4A4   gui=NONE
 hi WildMenu     guifg=#FFFFFF          guibg=#7D7D7D   gui=NONE
 hi Boolean      guifg=#9E9F9F          guibg=NONE      gui=bold
 hi Ignore       guifg=bg               guibg=NONE      gui=NONE
-hi Error        guifg=#008D8D          guibg=NONE      gui=undercurl guisp=#00FFFF
+hi Error        guifg=#008D8D          guibg=NONE      gui=undercurl guisp=#A42E2E
 
 " -----------------------------------------------------------------------------
 " Taglist
